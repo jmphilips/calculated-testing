@@ -39,7 +39,7 @@ describe("The basic specifications for Math", function(){
 	});
 
 	it("should square a number", function() {
-		expect(square(2).toBe(4));
+		expect(square(2)).toBe(4);
 	});
 
 	it("should have a square root function", function() {
@@ -48,7 +48,6 @@ describe("The basic specifications for Math", function(){
 
 	it("should return the square root of a number", function() {
 		expect(sqRoot(4)).toBe(2);
-	})
-
+	});
 
 });
